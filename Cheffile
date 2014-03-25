@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'yum'
+cookbook 'mysql'
+cookbook 'database'
+cookbook 'nginx'
+cookbook 'php', '~> 1.2.0'
+cookbook 'php-fpm'
+cookbook 'composer'
+cookbook 'nfs'
